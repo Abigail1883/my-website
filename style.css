@@ -1,0 +1,95 @@
+
+.nav{
+    display: flex;
+   justify-content: space-evenly;
+    background-image: url(images/birds.jpg);
+    padding: 10px;
+}
+.nav :hover{
+    color: #f10505;
+}
+.nav .logo{
+    width: 70px;
+    height: 70px;
+}
+.home-page h1{
+    text-transform: capitalize;
+}
+.home-page p{
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-page{
+    text-align: center;
+    justify-content: center;
+    
+}
+.home-page .owner{
+    width: 20%;
+    height: 40%;
+}
+.home-page .{
+    width: 40%;
+    height: 15%;
+}
+.gallery-page .photos{
+    width: 40%;
+    height: 15%;
+}
+.con{
+    text-align: center;
+    justify-content: center;
+    background-image: url(images/backg.jpg);
+}
+.con p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:beige;
+}
+.con h3{
+    color: #f10505;
+    font-size: 30px;
+}
+.cont{
+    text-align: center;
+    justify-content: center;
+}
+.table-container{
+        width: 50%; 
+        margin: auto; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black; 
+    padding: 10px;
+  }
+  #slider{
+    overflow: hidden;
+  }
+  #slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+    font-size: 0;
+    text-align: left;
+  }
+  #slider figure img{
+    float: left;
+    width: 20%;
+    height: 400px;
+  }
+  @keyframes slider{
+    0% {:left:0;}
+    20% { left: 0;}
+    25% { left: -100%;}
+    45% { left: -100%;}
+    50% { left: -200%;}
+    70% { left: -200%;}
+    75% { left: -300%;}
+    95% { left: -300%;}
+  }
+  
